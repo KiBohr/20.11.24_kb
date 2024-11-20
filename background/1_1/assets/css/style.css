@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+section{
+    background-color: linen;
+    margin-bottom: 10px;
+}
+
+h1{
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+article{
+    background-image: url(../img/birds.avif);
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 10px;
+}

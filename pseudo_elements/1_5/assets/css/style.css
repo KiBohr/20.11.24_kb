@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: mont;
+}
+
+div{
+    margin: 100px;
+    text-align: center;
+    width: 400px;
+    height:120px;
+}
+span{
+    border-bottom: solid 2px black;
+}
+
+span:hover{
+    color:white;
+}
+
+p{
+    position: relative;
+}
+
+p::first-letter{
+    font-size: 24px;
+}
+
+p::before{
+    content:"";
+    background-image: url(../img/anführungszeichen_unten.png);
+    position: absolute;
+    display:block;
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+    left: -30px;
+    top: -30px;
+}
+p::after{
+    content:"";
+    background-image: url(../img/anführungszeichen_oben.png);
+    position: absolute;
+    display:block;
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+    right: -30px;
+    bottom: -30px;
+}
